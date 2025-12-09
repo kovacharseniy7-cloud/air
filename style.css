@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f6f2e8;
+    font-family: Georgia, serif;
+    color: #1f3d1f;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1f3d1f;
+    font-size: 18px;
+}
+
+.order-btn {
+    background: #3d7a3d;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+}
+
+.hero-img {
+    width: 450px;
+    border-radius: 14px;
+}
+
+/* BUTTON */
+.btn {
+    background: #2b6e2b;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* BENEFITS */
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.benefit-item img {
+    width: 60px;
+    margin-bottom: 12px;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item img {
+    width: 150px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.contact-box {
+    display: flex;
+    gap: 30px;
+}
+
+.contact-form input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.submit-btn {
+    margin-top: 10px;
+}
